@@ -96,7 +96,7 @@ h4 {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(8, 1fr); /* 8 Pokémon par ligne */
+  grid-template-columns: repeat(8, 1fr);
   gap: 16px;
 }
 
@@ -107,7 +107,7 @@ h4 {
 }
 
 .type-image {
-  width: 24px; /* Réduit la taille des images des types */
+  width: 24px;
   height: 24px;
   object-fit: contain;
 }
