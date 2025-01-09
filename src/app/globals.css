@@ -6,7 +6,7 @@ body {
 
 .container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 2rem auto;
   padding: 16px;
   background-color: white;
   border-radius: 12px;
@@ -65,8 +65,8 @@ body {
 header {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centrer le logo et le titre horizontalement */
-  justify-content: center; /* Centrer verticalement */
+  align-items: center;
+  justify-content: center;
   margin-bottom: 16px;
 }
 
@@ -74,13 +74,13 @@ header img {
   width: 80px;
   height: 80px;
   object-fit: contain;
-  margin-bottom: 12px; /* Espacement entre le logo et le titre */
+  margin-bottom: 12px;
 }
 
 header h1 {
   font-size: 2.5rem;
   font-weight: bold;
-  text-align: center; /* Centrer le titre horizontalement */
+  text-align: center;
 }
 
 section {
@@ -96,7 +96,7 @@ h4 {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(8, 1fr); /* 8 Pokémon par ligne */
   gap: 16px;
 }
 
@@ -104,4 +104,10 @@ h4 {
   display: flex;
   justify-content: center;
   gap: 8px;
+}
+
+.type-image {
+  width: 24px; /* Réduit la taille des images des types */
+  height: 24px;
+  object-fit: contain;
 }
